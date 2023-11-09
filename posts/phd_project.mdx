@@ -4,4 +4,18 @@ description: "Modelisation of groundwater level."
 date: 2019-2023
 ---
 
-
+import Image from 'images'
+import MALA_2_3s_synth_test from '../images/MALA_2_3s_synth_test.png'
+ 
+export default function Page() {
+  return (
+    <Image
+      src={MALA_2_3s_synth_test}
+      alt="MALA"
+      // width={500} automatically provided
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
+  )
+}
